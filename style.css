@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.youtube-button{
+    border-radius: 7px;
+    padding: 20px;
+    color: #fff;
+    background-color: #cc181e;
+    display: flex;
+    align-self: center;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+    
+}
+
+i {
+    font-size:30px;
+    margin-bottom: 12px; 
+    margin: 20px; 
+}
+
+p {
+    font-size: 18px;
+}
+
+span {
+    
+    margin-right: 4px;
+}
+
+.TitoloIniziale{
+    align-self: center;
+    margin: 10px;
+    text-align: center;
+    color: white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+
+.UltimiVideo{
+    align-self: center;
+    margin: 6px;
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.UltimoVideo{
+    align-self: center;
+    margin: 6px;
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.UltimoVideoIMG{
+    margin-bottom: 200px;
+    margin-right: 8px;
+    align-self: flex-end;
+}
